@@ -2,7 +2,7 @@
 % Please edit documentation in R/derivationTrees.R
 \name{chooseNode}
 \alias{chooseNode}
-\title{Selects an attributed node in an attributed node list randomly.}
+\title{Randomly selects an attributed node in an attributed node list.}
 \usage{
 chooseNode(ANL)
 }
@@ -10,11 +10,11 @@ chooseNode(ANL)
 \item{ANL}{Attributed node list.}
 }
 \value{
-Attributed node.
+An attributed node.
 }
 \description{
 \code{chooseNode()} returns  a random attributed node 
-             from an attributed node list
+             from an attributed node list.
 }
 \details{
 An attributed \code{node} has the following elements:
@@ -25,7 +25,7 @@ An attributed \code{node} has the following elements:
        \item \code{Depth}
        \item \code{Rdepth}
        \item \code{subtreedepth}
-       \item \code{node$Index}
+       \item \code{Index}
        }
    These elements can be used e.g. 
    \itemize{

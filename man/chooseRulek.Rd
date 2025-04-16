@@ -7,7 +7,7 @@
 chooseRulek(riv, k)
 }
 \arguments{
-\item{riv}{Vector of production rules indices for 
+\item{riv}{Vector of production rule indices for 
 a non-terminal symbol.}
 
 \item{k}{Integer.}
@@ -18,7 +18,7 @@ The index of the production rule.
 \description{
 \code{chooseRulek()} selects the k-th production rule index 
      from the vector of production rule indices 
-     in the \code{g$PT$LHS$} for a non-terminal symbol.
+     in the \code{g$PT$LHS} for a non-terminal symbol.
 }
 \examples{
 chooseRulek(c(7, 8, 9), 9)

@@ -27,9 +27,10 @@ substituteSymbol(3, g$PT)
 }
 \seealso{
 Other Generate Derivation Tree: 
+\code{\link{generateCDT}()},
 \code{\link{generateDerivationTree}()},
 \code{\link{randomDerivationTree}()},
-\code{\link{rndsubk}()},
-\code{\link{rndsub}()}
+\code{\link{rndsub}()},
+\code{\link{rndsubk}()}
 }
 \concept{Generate Derivation Tree}

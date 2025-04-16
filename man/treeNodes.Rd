@@ -29,6 +29,7 @@ treeNodes(a, g$ST)
 Other Measures of Tree Attributes: 
 \code{\link{treeLeaves}()},
 \code{\link{treeListDepth}()},
+\code{\link{treeProbability}()},
 \code{\link{treeSize}()}
 }
 \concept{Measures of Tree Attributes}

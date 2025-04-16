@@ -15,7 +15,7 @@ compatibleSubtrees(n1, n2, maxdepth = 5, DepthBounded = TRUE)
 
 \item{DepthBounded}{\itemize{
 \item \code{TRUE}: Only subtrees 
-       with the same root symbol and which respect 
+       with the same root symbol that respect 
       the depth restrictions are compatible. 
 \item \code{FALSE}: The depth restrictions are not 
                     checked.}}

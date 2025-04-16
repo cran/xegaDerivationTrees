@@ -16,7 +16,7 @@ Integer. Index of the production rule.
 \description{
 \code{chooseRule()} selects a production rule index 
      from the vector of production rule indices 
-     in the \code{g$PT$LHS$} for a non-terminal symbol.
+     in the \code{g$PT$LHS} for a non-terminal symbol.
 }
 \examples{
 chooseRule(c(7, 8, 9))

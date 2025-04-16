@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------
+  xegaDerivationTrees                                              News
+-------------------------------------------------------------------------
+
+Version 1.0.0.1 (2024-03-18)
+
+- Corrected typos in documentation:
+  chooseNode(), chooseRule(), chooseRulek(), 
+  compatibleSubtrees(), decodeCDT(), decodeFT(),
+  treeANL(), filterANL(), and filterANLid()
+
+Version 1.0.0.2 (2025-02-13)
+
+- decodeAndFixDT(): randomly completes derivation trees generated
+                    from finite length random integer vectors
+                    (for grammatical evolution).
+
+Version 1.0.0.3 (2025-02-16)
+
+- treeProbability(): path probability of generating a derivation tree t
+                       for grammar g. Unique for unambiguous grammars
+                       without redundant rules.
+
+Version 1.0.0.4 (2025-02-18)
+
+- printDerivations(): print the list of derivations for a derivation tree.
+
+Version 1.0.0.5 (2025-02-19)
+
+- treeToDataFrames() and helper functions: 
+  Converts a complete derivation tree into data frames suitable 
+  to generate an igraph plot of the derivation tree.
+  
+Version 1.0.0.6 (2025-02-21)
+
+- printDerivations and treeToDataFrames work with complete and 
+  incomplete derivation trees.

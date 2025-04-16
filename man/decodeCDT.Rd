@@ -12,7 +12,7 @@ decodeCDT(tree, ST)
 \item{ST}{Symbol table.}
 }
 \value{
-Program.
+A program.
 }
 \description{
 \code{decodeCDT()} returns a program
@@ -30,8 +30,9 @@ decodeCDT(a, g$ST)
 }
 \seealso{
 Other Decoder: 
-\code{\link{decodeDTsym}()},
+\code{\link{decodeAndFixDT}()},
 \code{\link{decodeDT}()},
+\code{\link{decodeDTsym}()},
 \code{\link{decodeTree}()},
 \code{\link{leavesIncompleteDT}()}
 }

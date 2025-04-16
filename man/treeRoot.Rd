@@ -23,8 +23,8 @@ treeRoot(a)
 }
 \seealso{
 Other Access Tree Parts: 
-\code{\link{filterANLid}()},
 \code{\link{filterANL}()},
+\code{\link{filterANLid}()},
 \code{\link{treeANL}()},
 \code{\link{treeChildren}()}
 }

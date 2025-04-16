@@ -27,6 +27,7 @@ decodeDTsym(t1$tree, g$ST)
 }
 \seealso{
 Other Decoder: 
+\code{\link{decodeAndFixDT}()},
 \code{\link{decodeCDT}()},
 \code{\link{decodeDT}()},
 \code{\link{decodeTree}()},

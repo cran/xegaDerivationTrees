@@ -2,6 +2,7 @@
 % Please edit documentation in R/xegaDerivationTrees-package.R
 \docType{package}
 \name{xegaDerivationTrees}
+\alias{xegaDerivationTrees-package}
 \alias{xegaDerivationTrees}
 \title{Package xegaDerivationTrees}
 \description{
@@ -94,6 +95,13 @@ Geyer-Schulz, Andreas (1997):
          \emph{Fuzzy Rule-Based Expert Systems and Genetic Machine Learning},
                Physica, Heidelberg.
           (ISBN:978-3-7908-0830-X)
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ageyerschulz/xegaDerivationTrees}
+}
+
 }
 \author{
 Andreas Geyer-Schulz

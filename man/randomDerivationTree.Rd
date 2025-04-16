@@ -36,9 +36,10 @@ c<-randomDerivationTree(g$Start, g, 2, FALSE)
 }
 \seealso{
 Other Generate Derivation Tree: 
+\code{\link{generateCDT}()},
 \code{\link{generateDerivationTree}()},
-\code{\link{rndsubk}()},
 \code{\link{rndsub}()},
+\code{\link{rndsubk}()},
 \code{\link{substituteSymbol}()}
 }
 \concept{Generate Derivation Tree}

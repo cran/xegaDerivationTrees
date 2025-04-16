@@ -32,16 +32,16 @@ treeANL(
 \value{
 A list with three elements:
         \enumerate{
-        \item \code{r$count}: The trail length (not needed).
-        \item \code{r$depth}: The derivation tree depth (not needed).
-        \item \code{r$ANL}:   The attributed node list is a list of nodes.
+        \item \code{$count}: The trail length (not needed).
+        \item \code{$subtreedepth}: The derivation tree depth (not needed).
+        \item \code{$ANL}:   The attributed node list is a list of nodes.
           Each node is represented as a list of the following attributes:
         \itemize{
         \item \code{Node$ID}:  Id in the symbol table ST.
-        \item \code{Node$NT}:  Is the symbol a non-terminal?
+        \item \code{Node$NonTerminal}:  Is the symbol a non-terminal?
         \item \code{Node$Pos}: Position in the trail.
         \item \code{Node$Depth}:  Depth of node.
-        \item \code{Node$RDepth}: Residual depth for expansion.
+        \item \code{Node$Rdepth}: Residual depth for expansion.
         \item \code{Node$subtreedepth}: Depth of subtree starting here.
         \item \code{Node$Index}:  R index of the node in the derivation tree.
                            Allows fast tree extraction and insertion.
@@ -58,10 +58,10 @@ A list with three elements:
 An attributed \code{node} has the following elements:
     \itemize{
         \item \code{$ID}:  Id in the symbol table \code{ST}.
-        \item \code{$NT}:  Is the symbol a non-terminal?
+        \item \code{$NonTerminal}:  Is the symbol a non-terminal?
         \item \code{$Pos}: Position in the trail.
         \item \code{$Depth}:  Depth of node.
-        \item \code{$RDepth}: Residual depth for expansion.
+        \item \code{$Rdepth}: Residual depth for expansion.
         \item \code{$subtreedepth}: Depth of subtree starting here.
         \item \code{$Index}:  R index of the node in the derivation tree.
                            Allows fast tree extraction and insertion.
@@ -87,8 +87,8 @@ d<-treeANL(a, g$ST, maxdepth=10)
 }
 \seealso{
 Other Access Tree Parts: 
-\code{\link{filterANLid}()},
 \code{\link{filterANL}()},
+\code{\link{filterANLid}()},
 \code{\link{treeChildren}()},
 \code{\link{treeRoot}()}
 }

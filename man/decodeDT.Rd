@@ -12,7 +12,7 @@ decodeDT(tree, ST)
 \item{ST}{Symbol table.}
 }
 \value{
-Program
+A program
 }
 \description{
 The program may contain non-terminal symbols
@@ -26,6 +26,7 @@ decodeDT(t1$tree, g$ST)
 }
 \seealso{
 Other Decoder: 
+\code{\link{decodeAndFixDT}()},
 \code{\link{decodeCDT}()},
 \code{\link{decodeDTsym}()},
 \code{\link{decodeTree}()},

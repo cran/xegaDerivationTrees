@@ -29,9 +29,10 @@ decodeTree(a, g$ST)
 }
 \seealso{
 Other Decoder: 
+\code{\link{decodeAndFixDT}()},
 \code{\link{decodeCDT}()},
-\code{\link{decodeDTsym}()},
 \code{\link{decodeDT}()},
+\code{\link{decodeDTsym}()},
 \code{\link{leavesIncompleteDT}()}
 }
 \concept{Decoder}

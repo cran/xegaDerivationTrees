@@ -26,6 +26,7 @@ treeSize(a)
 Other Measures of Tree Attributes: 
 \code{\link{treeLeaves}()},
 \code{\link{treeListDepth}()},
-\code{\link{treeNodes}()}
+\code{\link{treeNodes}()},
+\code{\link{treeProbability}()}
 }
 \concept{Measures of Tree Attributes}

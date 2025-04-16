@@ -5,12 +5,19 @@
 \title{Generate, decode, and show \code{times} derivation trees from random 
 integer vectors for grammar BNF on the console.}
 \usage{
-testGenerateDerivationTree(times, BNF, verbose = TRUE)
+testGenerateDerivationTree(
+  times,
+  G,
+  generateDT = generateDerivationTree,
+  verbose = TRUE
+)
 }
 \arguments{
 \item{times}{Number of derivation trees which should be generated.}
 
-\item{BNF}{BNF.}
+\item{G}{A grammar object G.}
+
+\item{generateDT}{Function for generating a derivation tree.}
 
 \item{verbose}{Boolean. If TRUE (default) , print decoded derivation tree on console.}
 }
@@ -22,6 +29,7 @@ Generate, decode, and show \code{times} derivation trees from random
 integer vectors for grammar BNF on the console.
 }
 \examples{
-testGenerateDerivationTree(5, BNF=booleanGrammar())
+g<-compileBNF(booleanGrammar())
+testGenerateDerivationTree(5, g)
 }
 \concept{Tests}
